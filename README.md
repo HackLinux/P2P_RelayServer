@@ -5,9 +5,9 @@ Allow clients to connect with one anther by using a server as the mediator for t
 
 At the moment the server(relay.py) will listen for incoming connecting devices, but the python script is not setup to help devices find each other. 
 
-The clients can communicate with each other only if they are on the same machine. But with the code available you code access people on a local network. To send messages with the client.py open terminal and issue the commands below to send to another terminal on the same machine.
+The clients can communicate with each other only if they are on the same machine. But with the code available you could modify the code and access people on a local network. To send messages with the client.py, open terminal and issue the commands below to send to another terminal on the same machine.
 
-If you don't know much about how to configure the ip and port, use the defaults shown below. To end a connection with the other terminal window, enter the word 'end' and both connections will be closed.
+If you don't know much about how to configure the ip and port address, use the defaults shown below. To end a connection with the other terminal window, enter the word 'end' and both connections will be closed.
 
 Switches explained
    - -p the port in which the host(which is you) allows for the client to connect to
