@@ -26,7 +26,7 @@ class Receiver(Thread):
 				if data == "end":
 					self.senderObj.stop()
 					break
-				print "\nReceived: ", data
+				print ">:", data
 				sys.stdout.write(">")
 
 	def stop(self):
@@ -38,7 +38,7 @@ class Sender(Thread):
 		Thread.__init__(self)
 		self.ip = ip
 		self.port = port
-		self.sock = sockd
+		self.sock = sock
 
 	def receiverObject(self, obj):
 		self.receiverObj = obj
